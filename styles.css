@@ -50,6 +50,7 @@ body {
 
 .flip-clock {
   display: flex;
+  margin: 10px;
 
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
