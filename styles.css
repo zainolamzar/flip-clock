@@ -72,6 +72,7 @@ body {
 
 .digit {
   position: relative;
+  border-radius: 325px;
 
   width: 145px;
   height: 180px;
