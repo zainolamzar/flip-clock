@@ -72,7 +72,7 @@ body {
 
 .digit {
   position: relative;
-  border-radius: 325px;
+  
 
   width: 145px;
   height: 180px;
@@ -118,6 +118,7 @@ body {
 .card {
   position: relative;
   z-index: 1;
+  
 
   width: 100%;
   height: 50%;
