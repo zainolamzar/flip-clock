@@ -174,19 +174,27 @@ body {
   .flip-clock-container {
     flex-direction: column;
     align-items: center;
-    font-size: 10vw;
+    font-size: 18vw; /* Increase size */
+  }
+
+  .flip-clock {
+    margin: 2vw 0; /* Add vertical gap */
   }
 
   .digit {
-    width: 20vw;
-    height: 24vw;
+    width: 28vw; /* Increase width */
+    height: 35vw; /* Increase height */
   }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
   /* For iPad screens */
   .flip-clock-container {
-    font-size: 6vw;
+    font-size: 6vw; /* Smaller size compared to normal screen */
+  }
+
+  .flip-clock {
+    margin: 1.5vw; /* Add a bit more space between elements */
   }
 
   .digit {
